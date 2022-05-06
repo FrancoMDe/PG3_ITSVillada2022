@@ -1,5 +1,6 @@
 year = int(input("Ingrese un año: "))
 
+
 def leapYear(year):
     if year % 4 == 0:
         if year % 100 == 0:
@@ -11,5 +12,6 @@ def leapYear(year):
             print("El año es bisiesto")
     else:
         print("El año no es bisiesto")
+
 
 leapYear(year)
